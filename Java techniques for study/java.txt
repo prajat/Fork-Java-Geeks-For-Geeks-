@@ -6,3 +6,15 @@
    // next() can read the input only till the space. It can't read two words separated by space. Also, next() places the cursor in the same line after reading the input.
 
 nextLine() reads input including space between the words (that is, it reads till the end of line \n). Once the input is read, nextLine() positions the cursor in the next line.
+
+##bitwise tips 
+
+
+I am writing tips and tricks only, may find useful in tests/exams.
+
+n = n*2: n = n<<1
+n = n/2: n = n>>1
+Checking if n is power of 2 (1,2,4,8,...): check !(n & (n-1))
+Getting xth bit of n: n |= (1 << x)
+Checking if x is even or odd: x&1 == 0 (even)
+Toggle the nth bit of x: x ^ (1<<n)
