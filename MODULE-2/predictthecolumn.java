@@ -24,6 +24,7 @@ class predictthecolumn {
                 ans = i;
             }
         }
+        return ans;
 
     }
 }
