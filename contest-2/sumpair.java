@@ -6,7 +6,7 @@ class Geeks {
 
 
         int flag = 0;
-        HashSet<Integer> set = new HashSet<>();
+        HashSet<Long> set = new HashSet<>();
         for (int i = 0; i < arr.length; i++) {
             int temp = sum - arr[i];
             if (temp >= 0 && set.contains(temp)) {
